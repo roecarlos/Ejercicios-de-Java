@@ -24,4 +24,11 @@ public class AsignacionDeDatos {
     byte calificacion = 9;
     String cadena="Carlos";
     
+    int number1 = 9;
+    int number2 = 3; 
+    int suma = number1+number2;
+    double divisition= number1/number2;
+    int multiplication= number1*number2;
+    boleean verdad= multiplication>divisition
+    
 }
