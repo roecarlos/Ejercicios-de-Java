@@ -17,11 +17,11 @@ public class AsignacionDeDatos {
     public static void main(String[] args) {
         // TODO code application logic here
     }
-    int numero;
-    double decimales;
-    boolean desicion;
-    float rendimiento;
-    byte calificacion;
+    int numero = 12;
+    double decimales = 3.33;
+    boolean desicion = true;
+    float rendimiento = (float) 2.6;
+    byte calificacion = 9;
     String cadena="Carlos";
     
 }
