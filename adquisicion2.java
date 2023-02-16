@@ -1,22 +1,19 @@
+
+import java.util.Scanner;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package asignacion.de.datos;
-
-import java.util.Scanner;
 
 /**
  *
  * @author river
  */
-public class AsignacionDeDatos {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
+public class adquisición2 {
+    
+   public static void main(String[] args) {
         // TODO code application logic here
           int numero = 12;
     double decimales = 3.33;
@@ -40,7 +37,20 @@ public class AsignacionDeDatos {
     System.out.println("Mi nombre es: " + nombre );
     System.out.println("Mi edad es: " + edad);
     
+    Scanner leer;
+       leer = new Scanner(System.in);
+       String name;
+       int age;
+              
+       System.out.print("Ingrese su nombre: ");
+       leer.nextLine();
+       
+        System.out.print("Ingrese su edad: ");
+       leer.nextInt();
+       
+            
+    
    
     }
-  
+    
 }
