@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author river
  */
-public class adquisición2 {
+public class adquisicion2 {
     
    public static void main(String[] args) {
         // TODO code application logic here
